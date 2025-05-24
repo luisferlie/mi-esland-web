@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+
+
+@layer components{
+    .font-lobster{
+        font-family: 'Lobster', sans-serif;
+    }
+    .btn{
+        @apply mt-10  bg-blue-800 hover:bg-blue-600 text-xl text-white font-bold py-3 px-4 rounded;
+    }
+}
+html{
+    background-color: black;
+}
+html p{
+   
+    font-family: 'Lobster', sans-serif;
+    line-height: 3rem;
+    font-size: 1.5rem;
+}
+h1,h2,h3{
+   
+    font-family: 'Poppins', sans-serif;
+}
+
